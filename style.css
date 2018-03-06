@@ -1,0 +1,109 @@
+/*Global*/
+   * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+        h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+        a,button {
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+        }
+* {
+    padding: 0;
+    margin: 0;   
+        }
+
+/*App bar*/
+      h1{
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+
+/*Channels list*/
+ ul {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+            list-style-type: none
+        }
+li.selected1{
+    color: #3F51B5;
+    border-left: 4px solid ;
+    border-left-color:#3F51B5;
+}
+li{padding: 16px;
+   font-size:16px;
+   font-weight:bold;
+   border-bottom: 1px solid #F5F5F5 ;}
+
+hr{color:#F5F5F5}
+
+/*Tab bar*/
+
+ #tab-bar{
+            /* #2 #colourful #plusfive */
+            background-color: white;
+            color: black;
+            font-size: 13px;
+            text-transform: uppercase;
+            border: 0px;     }
+
+#tab-bar1{width:33%;background-color: white; border: 0px;height: 72px;padding: 16px;}
+#tab-bar2{width:33%;background-color: white; border: 0px;height: 72px;padding: 16px;}
+#tab-bar3{width:33%;background-color: white; border: 0px;height: 72px;padding: 16px;}
+
+.image{display: block;
+       margin: auto;
+       margin-bottom: 4px;
+       }
+
+.selected{
+    color: #3F51B5;
+    border-bottom: 4px solid !important;
+    border-bottom-color:#3F51B5;
+}
+
+/*Messages*/
+.message{
+    width: 80%;
+    margin-bottom:8px;
+    margin-left:2.5%;
+    font-size: medium;
+        }
+.message1{
+    width: 80%;
+    margin-bottom:8px;
+    margin-left:17.5%;
+    font-size: medium;
+}
+ p {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+            padding:16px;
+                    }
+button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+        }
+em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+        
+        
